@@ -25,13 +25,3 @@ def fib(n: int) -> int:
         dp[i] = dp[i - 1] + dp[i - 2]
 
     return dp[n]
-
-# Scripts de Prueba
-print(fib(0))  # Esperado: 0
-print(fib(1))  # Esperado: 1
-print(fib(2))  # Esperado: 1
-print(fib(3))  # Esperado: 2
-print(fib(4))  # Esperado: 3
-print(fib(5))  # Esperado: 5
-print(fib(10)) # Esperado: 55
-
